@@ -20,8 +20,8 @@ python -c "import mega; print('OK')" 〈验证安装〉
 pkg install -y git  
 git clone https://github.com/aaaa111ssf/Spaceflight-simulator-Multiplayer-Android.git  
 cd Spaceflight-simulator-Multiplayer-Android  
-termux-setup-storage  〈请求存储权限〉
-ls /sdcard/Android/media/com.StefMorojna.SpaceflightSimulator/Saving/Worlds/〈查看路径对不对〉
+termux-setup-storage  〈请求存储权限〉  
+ls /sdcard/Android/media/com.StefMorojna.SpaceflightSimulator/Saving/Worlds/〈查看路径对不对〉  
 nano sfs_termux.py〈修改路径 找到DEFAULT_WORLD_PATH = "/storage/emulated/0/Android/media/com.StefMorojna.SpaceflightSimulator/Saving/Worlds/"
 这一行 在media就不用改 在data改成data ctrl+0保存 ctrl+X退出编辑〉  
 python sfs_termux.py  〈运行脚本〉  
