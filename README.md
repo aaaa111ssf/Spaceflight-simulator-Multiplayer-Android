@@ -1,5 +1,6 @@
 # Spaceflight-simulator-Multiplayer-Android
 Spaceflight-simulator游戏的安卓多人联机方案 未测试  
+~~理论上这并不是真正定义上的联机 改成回合制游戏里~~
 ## 依赖  
 pkg install python  
 pip install mega  
